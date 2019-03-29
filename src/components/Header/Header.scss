@@ -1,0 +1,9 @@
+$suba-blue: #34adef;
+
+.header {
+  align-items: center;
+  background: $suba-blue;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 20px;
+}

@@ -1,9 +1,23 @@
-$suba-blue: #34adef;
+@import './../../styles/variables.scss';
 
 .header {
-  align-items: center;
   background: $suba-blue;
   display: flex;
-  justify-content: space-around;
-  padding: 15px 20px;
+  justify-content: center;
+  padding: 17px 20px;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+}
+
+.lists {
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  font-size: 2em;
+  width: 100px;
 }
